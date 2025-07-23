@@ -4,6 +4,15 @@ Here are some notes from my Tufts summer Coding Academy
 ### If / Else (boolean logic)
 
 Let's talk about boolean logic! Some keywords that we should know here are:
-*if: check a condition (you always have one if)
-*elif: check a subsequent condition (you can have 0 or more)
-* else: run if none of the above conditions apply (you can have 0 or 1 else statements in an if contronol structure)
+* **if**: check a condition (you always have one 'if')
+* **elif**: check a subsequent condition (you can have 0 or more)
+* **else**: run if none of the above conditions apply (you can have 0 or 1 'else' statements in an 'if' contronol structure)
+
+'''python
+weather = 78 # farenheit
+if weather < 40:
+  print("Bring winter jacket")
+elif weather < 60:
+  print("bring light jacket")
+else
+  print("No jacket needed")
